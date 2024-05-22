@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+main {
+}
+.manu{
+  background-color: blue;
+  height: 2.4rem;
+  font-size: 1.7rem;
+  color: white;
+  display: flex;
+  width: 100vw;
+  padding-left: 0.5rem;
+  position: fixed;
+  padding-top: 0.5rem;
+  
+}
+.manu_search{
+  height: 1.7rem;
+  margin: 0 0.5rem ;
+  width: 1.7rem;
+  position: fixed;
+  right: 0.5rem;
+  top: 0.5rem;
+  
+}
+.manu_order{
+  height: 1.7rem;
+  color: white;
+  margin-right: 0;
+  position: fixed;
+  right: 3rem;
+  top: 0.5rem;
+}
+.menu_search_box{
+  margin-left: auto;
+  height: 1.7rem;
+  width: 20rem;
+  margin-right: 5.2rem;
+  font-size: 1.5rem;
+  
+}
+
+.left{ 
+  position: fixed;
+  width: 30vw;
+  height: calc(100vh - 5.5rem);
+  background-color: blue;
+  top: 3rem;
+  left: 0;
+}
+.left a{
+  color: white;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  
+}
+.home{
+  position: fixed;
+  top: 3rem;
+  left: 30vw;
+  width: 70vw;
+  height: calc(100vw - 3rem);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.home input{
+  width: 100%; 
+}
+.sine{
+  position: fixed;
+  top: 3rem;
+  top: 5.5rem;
+  width: calc(100vw - 4px);
+  left: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.sine_input{
+  border: none;
+  border-bottom: 2px solid black;
+  height: 1.6rem;
+  margin: 1rem 0;
+  outline: none;
+  font-size: 1.2rem;
+  width: 70%;
+}
+.submit{
+  background-color: blue;
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid #5c5c5c;
+  padding: 0;
+}
+.image{
+  height: 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #707070;
+  margin-left: 4px;
+  
+}
+.image .img_controle{
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  border-bottom: 2px solid #707070;
+}
+.image .img_controle{
+   border: 1px solid white;
+   color: white;
+  
+}
+.image .img_controle input{
+  visibility: hidden;
+}
+.image .img_show{
+  height: 10rem;
+  width: 100%;
+  background-color: #e6e6ff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+
+}
+.image .img_change{
+  height: 4rem;
+  backgroud-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  margin: 2px 3px;
+  overflow: auto;
+  display: flex;
+}
+.image .img_change div{
+  height: calc(4rem - 8px);
+  width: 6rem;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+}
+@media screen and (max-width: 400px) {
+  .menu_search_box{
+    position: fixed;
+    top: 2.75rem;
+  }
+  .manu{
+    height: 4.8rem;
+  }
+  .left{
+    left: -100vw;
+    position: fixed;
+    top: 5.5rem;
+    width: 80vw;
+    transition-delay: 1s;
+    
+  }
+  .home{
+    top: 5.5rem;
+    width: calc(100vw - 4px);
+    left: 0;
+    border: none;
+  }
+  
+}
